@@ -1,0 +1,127 @@
+body
+{
+  background-color: gray;
+}
+
+form
+{
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+}
+
+img
+{
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+}
+
+input
+{
+  width: 30px;
+  height: 17px;
+  padding: 0px;
+  border: 1px solid gray;
+  margin: 0px;
+}
+
+input.row
+{
+  margin: 10px 5px;
+}
+
+input.col
+{
+  margin: 12px 10px;
+}
+
+input#reset
+{
+  width: auto;
+  height: auto;
+  margin: 10px;
+}
+
+div#main
+{
+  width: 604px;
+  margin: 10px auto;
+  border: 1px solid black;
+  background-color: white;
+}
+
+div#north
+{
+  text-align: right;
+}
+
+div#west
+{
+  float: left;
+  width: 52px;
+  padding: 0px;
+  margin-top: 92px;
+  text-align: center;
+}
+
+div#east
+{
+  float: right;
+  width: 52px;
+  padding: 0px;
+  margin-top: 110px;
+  text-align: center;
+}
+
+div#center
+{
+  margin-left: 52px;
+  margin-right: 52px;
+}
+
+div#south
+{
+  text-align: left;
+}
+
+div#bottom
+{
+  text-align: center;
+}
+
+div#all-north
+{
+  float: right;
+  width: 162px;
+  padding: 10px 0px;
+  margin-right: 146px;
+  text-align: center;
+}
+
+div#all-west
+{
+  height: 24px;
+  padding: 73px 0px;
+  border: 0px;
+  margin: 0px;
+  vertical-align: center;
+}
+
+div#all-east
+{
+  height: 150px;
+  padding: 75px 0px;
+  border: 0px;
+  margin: 0px;
+  vertical-align: center;
+}
+
+div#all-south
+{
+  float: left;
+  width: 162px;
+  padding: 10px 0px;
+  margin-left: 146px;
+  text-align: center;
+}

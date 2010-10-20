@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="andy.css" />
+    <script type="text/javascript" src="andy.js"></script>
+    <title>Andy Traffic</title>
+  </head>
+  <body onload="clear ()">
+    <form>
+      <div id="main">
+        <div id="north">
+          <input type="text" id="north-west"  class="row" onkeyup="change ()" />
+          <input type="text" id="north-south" class="row" onkeyup="change ()" />
+          <input type="text" id="north-east"  class="row" onkeyup="change ()" />
+          <div id="all-north">0</div>
+        </div>
+        <div id="west">
+          <div id="all-west">0</div>
+          <input type="text" id="west-north" class="col" onkeyup="change ()" />
+          <input type="text" id="west-east"  class="col" onkeyup="change ()" />
+          <input type="text" id="west-south" class="col" onkeyup="change ()" />
+        </div>
+        <div id="east">
+          <input type="text" id="east-north" class="col" onkeyup="change ()" />
+          <input type="text" id="east-west"  class="col" onkeyup="change ()" />
+          <input type="text" id="east-south" class="col" onkeyup="change ()" />
+          <div id="all-east">0</div>
+        </div>
+        <div id="center">
+          <img src="andy.png" />
+        </div>
+        <div id="south">
+          <div id="all-south">0</div>
+          <input type="text" id="south-west"  class="row" onkeyup="change ()" />
+          <input type="text" id="south-north" class="row" onkeyup="change ()" />
+          <input type="text" id="south-east"  class="row" onkeyup="change ()" />
+        </div>
+        <div id="bottom">
+          <input type="reset" id="reset" value="reset" onclick="clear ()">
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
