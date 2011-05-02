@@ -98,6 +98,14 @@ main (int   argc,
 
   while (pause ());
 
+  jack_port_unregister (client, data.sine_port);
+  jack_port_unregister (client, data.square_port);
+  jack_port_unregister (client, data.triangle_port);
+  jack_port_unregister (client, data.sawtooth_port);
+
+  jack_deactivate   (client);
+  jack_client_close (client);
+
   return 0;
 }
 
