@@ -1,0 +1,3 @@
+#!/bin/sh
+
+./slice $((512 * $1 - 43520)) 44032 | ./fourier | ./spectrum
